@@ -8,7 +8,10 @@
 <a href="https://music-app-422.netlify.app/">Live App</a><br>
 
 ## Introduction
-Music application for browsing Spotify releases. Users are able to register for an account and add songs to their favourites list. The application utilizes Spotify's API for its data. The backend consist of a server which communicates with a MongoDB database pertaining user data - also handling authentification and authorization. Frontend built with Angular, utilizing Material UI.
+Music application for browsing Spotify releases. Users are able to register for an account and add songs to their favourites list. The application utilizes Spotify's API for its data. The backend consist of a Node with Express server which communicates with a MongoDB database for user data - also handling authentification and authorization. Frontend built with Angular with Material UI.
+
+## Tech
+Angular, TypeScript, Node.js, Express.js, HTML/ CSS
 
 ## Features
 <ul>
@@ -18,3 +21,13 @@ Music application for browsing Spotify releases. Users are able to register for 
   <li>View information regarding songs, albums, and artist</li>  
   <li>Song snippets</li> 
 </ul>
+
+## Screenshots
+### Home
+<img src="public/images/main.png">
+
+### Search
+<img src="public/images/search.png">
+
+### Favourites
+<img src="public/images/favourites.png">
